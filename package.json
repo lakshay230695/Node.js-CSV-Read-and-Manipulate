@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lakshay230695/Node.js-CSV-Manipulation#readme",
   "dependencies": {
+    "add": "^2.0.6",
     "algebra.js": "^0.2.6",
     "csv-injection-protector": "^1.5.0",
     "csv-parse": "^4.12.0",
@@ -24,6 +25,8 @@
     "csv-writer": "^1.6.0",
     "equations": "^1.3.7",
     "fast-csv": "^4.3.1",
-    "tsv": "^0.2.0"
+    "tsv": "^0.2.0",
+    "tsv-parser": "^2.0.3",
+    "yarn": "^1.22.5"
   }
 }

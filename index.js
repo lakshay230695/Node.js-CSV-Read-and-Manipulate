@@ -1,5 +1,6 @@
 //import { csvInjectionProtector } from 'csv-injection-protector';
 
+const tsv = require('tsv-parser');
 const csv = require('csv-parser');
 //const parse = require('csv-parse');
 const fs = require('fs');
@@ -9,7 +10,7 @@ var pairs={'A':'7','B':'10','C':'36','D':'5','E':'9','F':'0','G':'1','H':'4','I'
 
 
 
-fs.createReadStream('input.csv')
+fs.createReadStream('input.tsv')
   .pipe(csv())
   .on('data', (data) => {
 
