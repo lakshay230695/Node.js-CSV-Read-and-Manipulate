@@ -10,7 +10,7 @@ var pairs={'A':'7','B':'10','C':'36','D':'5','E':'9','F':'0','G':'1','H':'4','I'
 
 
 
-fs.createReadStream('input.tsv')
+fs.createReadStream('input.csv')
   .pipe(csv())
   .on('data', (data) => {
 
